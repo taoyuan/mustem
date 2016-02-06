@@ -182,9 +182,11 @@ describe('Renderer', function () {
       this.buffer = [];
       this.text = function (text) {
         this.buffer.push(text);
+        return this;
       };
       this.write = function (i) {
         this.buffer.push(i);
+        return this;
       };
     }
 

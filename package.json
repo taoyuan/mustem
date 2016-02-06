@@ -1,6 +1,6 @@
 {
   "name": "mustem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A template engine based on mustache and bluebird used for rendering a buffer",
   "homepage": "",
   "author": {
