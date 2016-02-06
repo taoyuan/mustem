@@ -1,0 +1,61 @@
+{
+  "name": "mustem",
+  "version": "1.0.0",
+  "description": "A template engine based on mustache and bluebird used for rendering a buffer",
+  "homepage": "",
+  "author": {
+    "name": "taoyuan",
+    "email": "torworx@gmail.com",
+    "url": ""
+  },
+  "main": "lib/index.js",
+  "keywords": [
+    "template",
+    "mustache",
+    "promise",
+    "bluebird",
+    "buffer",
+    "binary",
+    "render"
+  ],
+  "dependencies": {
+    "bluebird": "^3.2.1",
+    "json5": "^0.4.0",
+    "lodash": "^4.2.1",
+    "mustache": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^5.5.0",
+    "babel-eslint": "^4.1.6",
+    "chai": "^3.5.0",
+    "del": "^2.0.2",
+    "eslint-config-xo-space": "^0.7.0",
+    "eslint-plugin-babel": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-coveralls": "^0.1.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-plumber": "^1.0.0",
+    "isparta": "^3.0.3",
+    "mocha": "^2.4.5"
+  },
+  "eslintConfig": {
+    "extends": "xo-space/esnext",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "taoyuan/mustem",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
