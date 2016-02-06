@@ -54,7 +54,7 @@ mustem.render('The number is:{{#write}}1{{/write}}', view).then(function (result
 });
 ```
 
-__ATTENTION: [Functions](https://github.com/janl/mustache.js#functions) not supported!!!__
+__ATTENTION: [Functions](https://github.com/janl/mustache.js#functions) is not supported!!!__
 
 ## License
 
