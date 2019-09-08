@@ -1,4 +1,7 @@
 # mustem [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/taoyuan/mustem.svg)](https://greenkeeper.io/)
+
 > A template engine based on mustache and bluebird used for rendering a buffer
 
 ## Installation
